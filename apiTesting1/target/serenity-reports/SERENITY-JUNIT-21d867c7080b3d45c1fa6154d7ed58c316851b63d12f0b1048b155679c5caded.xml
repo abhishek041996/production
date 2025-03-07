@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Api testing Framework[EMC]" skipped="0" tests="2" time="12.34" timestamp="2024-11-27 05:27:02"><testcase name="send the reset password link to the registered emailId"/><testcase name="reset the password"><failure message="expected:&lt;200&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">expected:&lt;200&gt; but was:&lt;401&gt;</failure><system-err>expected:&lt;200&gt; but was:&lt;401&gt;&#13;
+steps.stepsEmcApi.user_validates(stepsEmcApi.java:84)&#13;
+✽.validate the response code "200"(file:///C:/Users/Abhishek/git/abhishekFinal/apiTesting1/src/test/resources/features/EmcApi.feature:247)&#13;
+</system-err></testcase></testsuite>
