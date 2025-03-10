@@ -14,7 +14,9 @@ public class firebaseDelete {
 	public int test() {
         try {
             // Initialize the Firebase SDK using the service account key file
-            FileInputStream serviceAccount = new FileInputStream("C:\\Windows\\firebaseFile.json");
+           // FileInputStream serviceAccount = new FileInputStream("C:\\Windows\\firebaseFile.json");
+            FileInputStream serviceAccount = new FileInputStream("//home//abhishek//Windows//firebaseFile.json");
+
             @SuppressWarnings("deprecation")
 			FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
