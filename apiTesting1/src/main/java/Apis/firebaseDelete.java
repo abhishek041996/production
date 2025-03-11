@@ -15,7 +15,7 @@ public class firebaseDelete {
         try {
             // Initialize the Firebase SDK using the service account key file
            // FileInputStream serviceAccount = new FileInputStream("C:\\Windows\\firebaseFile.json");
-            FileInputStream serviceAccount = new FileInputStream("//home//abhishek//Windows//firebaseFile.json");
+            FileInputStream serviceAccount = new FileInputStream("C:\\Windows\\firebaseFile.json");
 
             @SuppressWarnings("deprecation")
 			FirebaseOptions options = new FirebaseOptions.Builder()
